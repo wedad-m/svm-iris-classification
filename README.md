@@ -64,3 +64,24 @@ After applying GridSearchCV, the best parameters were:
 
 ```python
 {'C': 1, 'gamma': 0.1, 'kernel': 'rbf'}
+The tuned model also achieved an accuracy of 0.98. This means that GridSearchCV did not significantly improve the result because the original SVM model was already performing very well.
+
+Conclusion
+
+The SVM classifier performed very well on the Iris dataset. The Setosa class was the easiest species to separate based on the visualizations. Although GridSearchCV did not significantly improve the accuracy, it was still useful for selecting the best hyperparameters for the model.
+
+Technologies Used
+Python
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Scikit-learn
+Jupyter Notebook
+How to Run
+
+Open the notebook in Jupyter Notebook, JupyterLab, VS Code, or Google Colab, then run all cells from top to bottom.
+
+Author
+
+Wedad Mohammed
